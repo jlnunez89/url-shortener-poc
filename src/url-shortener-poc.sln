@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "url-shortener-poc", "url-shortener-poc.csproj", "{0F28B8D1-9D83-44C5-94EB-9643865F9F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F28B8D1-9D83-44C5-94EB-9643865F9F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F28B8D1-9D83-44C5-94EB-9643865F9F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F28B8D1-9D83-44C5-94EB-9643865F9F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F28B8D1-9D83-44C5-94EB-9643865F9F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A960B76-A123-4E68-A846-C699834CE3F5}
+	EndGlobalSection
+EndGlobal
