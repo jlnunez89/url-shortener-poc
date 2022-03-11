@@ -61,7 +61,8 @@ We mentioned the use of a `ResultCode` enumeration above. The values for it are 
 | ResultCode value | IsError? | Reason |
 | -- | -- | -- |
 | Success | False | - |
-| AlreadyInUse | True | The desired url is already in use. |
+| InvalidTargetUrl | True | The target url supplied is invalid. |
+| AlreadyInUse | True | The desired target url is already in use. |
 | NotFound | True | The short url could not be found in the storage layer, so the operation cannot be performed. |
 
 
