@@ -45,6 +45,17 @@ namespace UrlShortener.ConsoleApp
             // hack to make the manager available to the commands handler.
             ShortUrlManager = serverHost.Services.GetService<IShortUrlManager>() ?? throw new InvalidOperationException($"No {nameof(IShortUrlManager)} was registered.");
 
+            // Just to provide some visual feedback on the console...
+            
+            Console.WriteLine("==============================");
+            Console.WriteLine(" Short-Url manager PoC");
+            Console.WriteLine("==============================");
+            Console.WriteLine();
+            Console.WriteLine("Type 'create' 'delete' or 'get' to get stated. You can also type '--help' to display available commands.");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
             await serverHost.RunAsync(Program.MasterCancellationTokenSource.Token).ConfigureAwait(false);
         }
 
